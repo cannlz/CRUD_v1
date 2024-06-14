@@ -1,5 +1,5 @@
-let startServer = require('./server');
-let rooter = require('./rooter');
+let startServer = require('./utils/server');
+let rooter = require('./utils/rooter');
 
 const url = require('url');
 

@@ -1,7 +1,7 @@
-let getUser = require('./methods/getUser');
-let createUser = require('./methods/createUser');
-let updateUser = require('./methods/updateUser');
-let deleteUser = require('./methods/deleteUser');
+let getUser = require('../methods/getUser');
+let createUser = require('../methods/createUser');
+let updateUser = require('../methods/updateUser');
+let deleteUser = require('../methods/deleteUser');
 
 function rooter(req, resp, users, path, method) {
     // Заголовки ответа

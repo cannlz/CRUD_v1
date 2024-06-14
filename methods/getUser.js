@@ -22,7 +22,7 @@ function getUser(req, resp, users) {
                 resp.writeHead(200);
                 resp.end(JSON.stringify(users[userIndex]));
             } else {
-                resp.writeHead(200);
+                resp.writeHead(404);
                 resp.end(JSON.stringify({message: "User not found"}));
             }
             // Иначе выводим список всех пользователей

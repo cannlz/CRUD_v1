@@ -28,7 +28,7 @@ function updateUser(req, resp, users) {
 
             // Иначе кидаем ошибку 404
         } else {
-            resp.writeHead(201);
+            resp.writeHead(404);
             resp.end(JSON.stringify({message: "User not found"}));
         }
     });
